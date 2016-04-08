@@ -1,0 +1,8 @@
+name: rebaca-test-suite 
+summary: Prototype for charm creation using rest 
+maintainer: kedar <kedarnath@rebaca.com>
+description: |
+  <Multi-line description here>
+tags:
+  - misc
+subordinate: false

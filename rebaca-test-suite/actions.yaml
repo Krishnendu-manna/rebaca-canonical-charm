@@ -1,0 +1,23 @@
+# actions.yaml
+
+run:
+  description: Run the Automation frame work
+add-tags:
+  description: Add the tag to the list 
+  params:
+    tagname:
+      type: string
+  required: [tagname]
+  additionalProperties: false
+
+delete-tags:
+  description: Delete a tag from the list
+  params:
+    tagname:
+      type: string
+  required: [tagname]
+  additionalProperties: false
+
+list-tags:
+  description: List of tags set
+  additionalProperties: false

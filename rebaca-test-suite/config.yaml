@@ -1,0 +1,25 @@
+options:
+  tags:
+    type: string
+    default: "sip-register"
+    description: "Tag for the feature file to run"
+  sip_server:
+    type: string
+    default: "bono.clearwater.local"
+    description: "Sip proxy server hostname with domain"
+  sip_domain:
+    type: string
+    default: "clearwater.local"
+    description: "sip domain"
+  ims_hss_mirror_ip:
+    type: string
+    default: "192.168.4.134"
+    description: "IP address of the hss mirror"
+  clearwater_sipp_ip:
+    type: string
+    default: "192.168.4.98"
+    description: "IP address of the clearwater sipp"
+  ims_cscf_ip:
+    type: string
+    default: "192.168.4.101"
+    description: "IP address of the cscf"
